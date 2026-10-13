@@ -41,4 +41,4 @@ Before moving into data, I spent 6 years as a **home health aide**, which gave m
 
 I'm bilingual, which helps me communicate with diverse teams and clients.
 
-**Connect with me:** [LinkedIn](https://www.linkedin.com/in/kulsoom-bibi-2a3654278/) | [GitHub](https://github.com/kbibi2002)
+**Connect with me:** [LinkedIn](https://www.linkedin.com/in/kulsoom-bibi-2a3654278/) | [GitHub](https://github.com/kbibi2002) | [Email](kbibi2533@gmail.com) | Phone: 5712959747
