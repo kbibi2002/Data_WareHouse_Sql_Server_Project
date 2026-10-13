@@ -21,7 +21,7 @@ A data warehouse built in **SQL Server** using the **Medallion architecture** (B
 
 ## Full documentation
 
-Architecture, data sources, data flow, transformations, data model, setup steps and the data-quality issue I fixed are in **[docs/project_documentation.md](docs/project_documentation.md)**.
+Architecture, data sources, data flow, transformations, data model, setup steps and the data-quality issue I fixed are in **[docs/project_documentation.md](docs/project_documentation.pdf)**.
 
 ## Repository structure
 
@@ -40,7 +40,5 @@ I'm Kulsoom, a recent graduate with a B.S. in Information Technology from George
 Before moving into data, I spent 6 years as a **home health aide**, which gave me hands-on experience in healthcare, careful documentation, and working with patients, families and care teams. I'm now combining that background with my technical skills and looking for **entry-level and junior data analyst and analytics roles, especially in healthcare**. This project is part of my hands-on practice with data warehousing.
 
 I'm bilingual, which helps me communicate with diverse teams and clients.
-
-**Connect with me:** [LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/kbibi2002) | [Email](mailto:your.email@example.com)
 
 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/kulsoom-bibi-2a3654278/) | [GitHub](https://github.com/kbibi2002) |  [Email](mailto:kbibi2533@gmail.com)
