@@ -56,7 +56,7 @@ BEGIN
         END AS cst_gndr,
         -- Standardize marital status codes
         CASE WHEN UPPER(TRIM(cst_material_status)) = 'S' THEN 'Single'
-             WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Merried'
+             WHEN UPPER(TRIM(cst_material_status)) = 'M' THEN 'Married'
              ELSE 'n/a'
         END AS cst_material_status,
         cst_create_date
@@ -134,7 +134,7 @@ set @end_time = GETDATE();
         -- Invalid dates (wrong length or <= 0) become NULL
         CASE WHEN LEN(sls_order_dt) != 8 OR sls_order_dt <= 0
              THEN NULL
-             ELSE CAST(CAST(sls_ship_dt AS VARCHAR) AS DATE)   -- NOTE: references sls_ship_dt, check (see notes)
+             ELSE CAST(CAST(sls_order_dt AS VARCHAR) AS DATE)
         END AS sls_order_dt,
         CASE WHEN LEN(sls_ship_dt) != 8 OR sls_ship_dt <= 0
              THEN NULL
@@ -142,7 +142,7 @@ set @end_time = GETDATE();
         END AS sls_ship_dt,
         CASE WHEN LEN(sls_due_dt) != 8 OR sls_due_dt <= 0
              THEN NULL
-             ELSE CAST(CAST(sls_ship_dt AS VARCHAR) AS DATE)   -- NOTE: references sls_ship_dt, check (see notes)
+             ELSE CAST(CAST(sls_due_dt AS VARCHAR) AS DATE)   
         END AS sls_due_dt,
         -- Sales should equal quantity * price; recalculate if missing, negative or inconsistent
         CASE WHEN sls_sales != sls_quantity * ABS(sls_price) OR sls_sales <= 0 OR sls_sales IS NULL
